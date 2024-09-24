@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "water_states",
+  "info": {
+    "singularName": "water-state",
+    "pluralName": "water-states",
+    "displayName": "waterState",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "poland": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "slovakia": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

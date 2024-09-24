@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fisheries",
+  "info": {
+    "singularName": "fishery",
+    "pluralName": "fisheries",
+    "displayName": "fishery"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "huntingGrounds": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "Polska (Podhale)"
+      ]
+    }
+  }
+}
